@@ -6,7 +6,8 @@ $(document).ready(function() {
 $("#changeTextBtn").click(function() {
     $("#freshText").text("Now I am a new sentence!")
 });
-   
+
+// Changes Paragraph text when button is double-clicked
 $("#changeTextBtn").dblclick(function() {
     $("#freshText").text("I am a sentence.")
 });
@@ -33,6 +34,7 @@ $("#box").mouseout(function() {
     $(this).text("Please don't do that again...");
 });
 
+// Animates the image on the webpage
 $("#animateBtn").click(function() {
 
     $("#animateBox").animate({
@@ -45,7 +47,7 @@ $("#animateBtn").click(function() {
         left: "0px",
         width: "100px",
         height: "100px"
-    }, 4000);
+    }, 3000);
 
 });
 
