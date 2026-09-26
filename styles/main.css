@@ -72,3 +72,21 @@ textarea {
     font-weight: bold;
     margin-top: 10px;
 }
+
+dl {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+dt {
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}

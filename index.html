@@ -11,40 +11,74 @@
    
 </head>
 
-<h1>
-    Using jQuery Selectors and Events!
-</h1>
+<body>
 
-<main>
-    <section>
+    <h1>
+        Using jQuery Selectors and Events
+    </h1>
+
+    <main>
+        <section>
+            
+            <p id="freshText">
+                I am a sentence.
+            </p>
+            
+            <button id="changeTextBtn">Click Me A LOT!</button>
+            <button id="hideTextBtn">Make it...Disappear!</button>
+            <button id="showTextBtn">Bring it Back!</button>
+
+            <!-- This Section Represents Changing a Sentence using Interactive Buttons-->
+
+        </section>
+
+
+        <section>
+            <div class="color-box" id="box">Hover Over Me!</div>
+
+            <!-- This Section represents the Hover Button -->
+        </section>
+
+        <section>
+            
+            <button id="animateBtn">YEAAAHHH!</button>
         
-        <p id="freshText">
-            I am a sentence.
-        </p>
-        
-        <button id="changeTextBtn">Click Me A LOT!</button>
-        <button id="hideTextBtn">Make it...Disappear!</button>
-        <button id="showTextBtn">Bring it Back!</button>
+            <img id="animateBox" src="./images/fred_durst.jpeg" alt="Limp Bizkit!">
 
-        <!-- This Section Represents Changing a Sentence using Interactive Buttons-->
+            <!--This Section represents animating an Image on the Webpage 
+            when a Button is clicked-->
 
-    </section>
-
+        </section>
 
     <section>
-        <div class="color-box" id="box">Hover Over Me!</div>
+        <h2>*jQuery Selectors Used*</h2>
 
-        <!-- This Section represents the Hover Button -->
+        <dl>
+            <dt>#changeTextBtn</dt>
+            <dd>Selects the button with the id="changeTextBtn".</dd>
+
+            <dt>#freshText</dt>
+            <dd>Selects the paragraph with the id="freshText" so its text can be changed,
+                hidden, or shown.</dd>
+
+            <dt>#hideTextBtn</dt>
+            <dd>Selects the button that hides the paragraph when clicked.</dd>
+
+            <dt>#showTextBtn</dt>
+            <dd>Selects the button that shows the paragraph when clicked.</dd>
+
+            <dt>#box</dt>
+            <dd>Selects the element with the id="box" so its color and text
+                can change when the mouse moves over or away from it.</dd>
+
+            <dt>#animateBtn</dt>
+            <dd>Selects the animation button.</dd>
+
+            <dt>#animateBox</dt>
+            <dd>Selects the image that is animated when the animation button is clicked.</dd>
+        </dl>
     </section>
 
-    <section>
-         
-        <button id="animateBtn">YEAAAHHH!</button>
-    
-        <img id="animateBox" src="./images/fred_durst.jpeg" alt="Limp Bizkit!">
-
-        <!--This Section represents animating an Image on the Webpage 
-        when a Button is clicked-->
-
-    </section>
-</main>
+    </main>
+</body>
+</html>
