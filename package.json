@@ -1,0 +1,25 @@
+{
+  "name": "activity_events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccbarbour432/activity_events.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ccbarbour432/activity_events/issues"
+  },
+  "homepage": "https://github.com/ccbarbour432/activity_events#readme",
+  "dependencies": {
+    "jquery": "^4.0.0",
+    "jQuery": "^1.7.4"
+  }
+}

@@ -3,6 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/main.css" type="text/css" />
+    <script  src="./resources/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <script>
+        if (typeof jQuery === "undefined") {
+            console.log("Local jQuery Failed. Loading CDN version");
+
+            document.write('<script src="https://code.jquery.com/jquery-4.0.0.min.js"><\/script>');
+        } else {
+            console.log("Local jQuery loaded successfully.")
+        }
+     </script>
+    
 </head>
 
 <h1>
@@ -33,7 +48,7 @@
          
         <button id="animateBtn">Animate Box</button>
     
-        <img id="animateBox"></div>
+        <img id="animateBox" src="./images/fred_durst.jpeg" alt="Limp Bizkit!">
 
     </section>
 </main>
